@@ -15,6 +15,12 @@ public class ControlFlowExercises {
             System.out.printf("%d%n", count);
             count -= 5;
         } while (count > -10);
+
+        int square = 2;
+        do {
+            System.out.printf("%d%n", square);
+            square *= 2;
+        } while (square < 1000000);
     }
 
 }
