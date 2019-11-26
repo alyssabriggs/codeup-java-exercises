@@ -1,6 +1,6 @@
 package sandbox;
 
-public class Person {
+public class TestPerson {
     public String firstName;
     public String lastName;
 

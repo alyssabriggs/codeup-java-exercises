@@ -2,7 +2,7 @@ package sandbox;
 
 public class OopTest {
     public static void main(String[] args) {
-        Person rick = new Person();
+        TestPerson rick = new TestPerson();
         TestAddress ricksAddr = new TestAddress(
                "navarro",
                 "600",
@@ -13,17 +13,17 @@ public class OopTest {
         rick.firstName = "Rick";
         rick.lastName = "Sanchez";
         System.out.println(rick.sayHello());
-        System.out.println(Person.breathe("air"));
+        System.out.println(TestPerson.breathe("air"));
         System.out.println(rick.breathe("air"));
 
 //        Person.liveOnEarth;
 
         // prints "Hello from Rick Sanchez!"
-        Person ada = new Person();
+        TestPerson ada = new TestPerson();
         ada.firstName = "Ada";
         ada.lastName = "Lovelace";
 
-        Person grace = new Person();
+        TestPerson grace = new TestPerson();
         grace.firstName = "Grace";
         grace.lastName = "Hopper";
 
