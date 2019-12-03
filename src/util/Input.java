@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Input {
 
-    private Scanner scanner = new Scanner(System.in);
+    public Scanner scanner = new Scanner(System.in);
 
         String getString(){
             System.out.println("Tell me something good...");
@@ -19,7 +19,7 @@ public class Input {
                 return false;
             }
         }
-        int getInt(int min, int max){
+        public int getInt(int min, int max){
             System.out.println("Please guess a number: ");
             int input = Integer.parseInt(scanner.nextLine());
             if (input < min){
@@ -33,7 +33,7 @@ public class Input {
             }
             return input;
         }
-        int getInt(){
+        public int getInt(){
             System.out.println("What's your favorite number?");
             int input = Integer.parseInt(scanner.nextLine());
             return input;
